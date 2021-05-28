@@ -11,11 +11,9 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact>
-          <Redirect to="/country" />
-        </Route>
-        <Route path="/country" exact>
           <Layout />
         </Route>
+
         <Route path="/country/:name">
           <CountryDetail />
         </Route>
