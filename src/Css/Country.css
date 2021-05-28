@@ -1,0 +1,41 @@
+.country {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  width: 13rem;
+  margin: 1rem 0;
+}
+.country__flag {
+  height: 150px;
+  width: 13rem;
+}
+.country__flag img {
+  width: 100%;
+}
+.country__detail {
+  padding: 1.5rem;
+}
+.country__name {
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+}
+.country__population {
+  font-size: 0.8rem;
+}
+.country__population span {
+  font-weight: 600;
+}
+.country__region {
+  font-size: 0.8rem;
+}
+.country__region span {
+  font-weight: 600;
+}
+.country__capital {
+  font-size: 0.8rem;
+}
+.country__capital span {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=Country.css.map */

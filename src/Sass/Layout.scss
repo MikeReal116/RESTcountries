@@ -1,0 +1,29 @@
+@import '_color.scss';
+
+.layout {
+  background-color: $lightbackground;
+  padding: $padding;
+  @media (max-width: 700px) {
+    padding: 0;
+  }
+
+  &__countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    a:link,
+    a:visited {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  &__filter {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 700px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

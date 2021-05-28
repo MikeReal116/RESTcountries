@@ -1,0 +1,31 @@
+.layout {
+  background-color: #fafafa;
+  padding: 1rem 4rem;
+}
+@media (max-width: 700px) {
+  .layout {
+    padding: 0;
+  }
+}
+.layout__countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.layout__countries a:link,
+.layout__countries a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.layout__filter {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 700px) {
+  .layout__filter {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=Layout.css.map */

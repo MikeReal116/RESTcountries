@@ -1,0 +1,30 @@
+@import '_color.scss';
+
+.form {
+  margin: 2.5rem 0;
+  &__input {
+    background-color: $element;
+    color: $lightinput;
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    font-size: 0.8rem;
+
+    input {
+      border: 1px solid $lightinput;
+
+      border-radius: 4px;
+      padding: 0.6rem 1.5rem;
+      width: 100%;
+      margin-left: 1rem;
+      color: $lightinput;
+      height: 100%;
+      width: 100%;
+      :focus,
+      :active {
+        border: none;
+        outline: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@import '_color.scss';
+
+.countrydetail {
+  background-color: $lightbackground;
+  padding: $padding;
+
+  @media (max-width: 700px) {
+    padding: 0;
+  }
+  a:link,
+  a:visited {
+    color: inherit;
+  }
+  &__flag {
+    width: 40rem;
+    @media (max-width: 700px) {
+      max-width: 100%;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+  &__details {
+    margin-top: 2rem;
+    display: flex;
+
+    @media (max-width: 700px) {
+      flex-direction: column;
+    }
+  }
+  &__info {
+    color: $darkbackgroud;
+    margin-left: 2rem;
+    padding: 2rem;
+
+    p {
+      span {
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+  &__name {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  &__border {
+    margin-top: 2rem;
+  }
+
+  &__btn {
+    color: $darkbackgroud;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 6px 12px;
+    border: 1px solid $lightbackground;
+  }
+}
