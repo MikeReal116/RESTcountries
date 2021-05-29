@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './UI/Header';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import CountryDetail from './CountryDetail';
 import '../Css/App.css';
 import Layout from './Layout';
@@ -13,7 +13,6 @@ function App() {
         <Route path="/" exact>
           <Layout />
         </Route>
-
         <Route path="/country/:name">
           <CountryDetail />
         </Route>

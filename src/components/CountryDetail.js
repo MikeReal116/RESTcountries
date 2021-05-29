@@ -101,7 +101,7 @@ const CountryDetail = () => {
       {loading && <p>Loading</p>}
       {!loading && (
         <div className={classes.root}>
-          <Link to="/country">
+          <Link to="/">
             <Button variant="contained">Back</Button>
           </Link>
         </div>
